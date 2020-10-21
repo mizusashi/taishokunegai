@@ -1,2 +1,2 @@
 # taishokunegai
-# LaTeX で退職願を書いたので
+LaTeX で退職願を書いたので
