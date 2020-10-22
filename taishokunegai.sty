@@ -1,29 +1,29 @@
 \pagestyle{empty}
 \usepackage{bxwareki}
-\newcommand{\希望退職日}[3]{
+\newcommand*{\希望退職日}[3]{
     \newcommand{\retiredaywant}{
         \warekisetdate{#1}{#2}{#3}\warekijkanjidate
     }
 }
-\newcommand{\提出日}[3]{
+\newcommand*{\提出日}[3]{
     \newcommand{\filingdate}{
         \parindent = 2\zw\warekisetdate{#1}{#2}{#3}\warekijkanjidate\\
     }
 }
-\newcommand{\会社名}[1]{
+\newcommand*{\会社名}[1]{
     \newcommand{\company}{\flushleft #1\\}
 }
-\newcommand{\部署名}[1]{
+\newcommand*{\部署名}[1]{
     \newcommand{\department}{\centering #1}
 }
-\newcommand{\辞める人の名前一番目}[1]{
+\newcommand*{\辞める人の名前一番目}[1]{
     \newcommand{\nameone}{#1\,}
 }
-\newcommand{\辞める人の名前二番目}[1]{
+\newcommand*{\辞める人の名前二番目}[1]{
     \newcommand{\nametwo}{#1}
 }
 \newcommand{\namethree}{\relax}
-\newcommand{\辞める人の名前三番目}[1]{
+\newcommand*{\辞める人の名前三番目}[1]{
     \renewcommand{\namethree}{\,#1}
 }
 \newcommand{\inkan}{
@@ -38,14 +38,14 @@
     代表取締役社長\hspace{1\zw}
 }
 
-\newcommand{\社長の名前一番目}[1]{
+\newcommand*{\社長の名前一番目}[1]{
     \newcommand{\shachoone}{#1\,}
 }
-\newcommand{\社長の名前二番目}[1]{
+\newcommand*{\社長の名前二番目}[1]{
     \newcommand{\shachotwo}{#1}
 }
 \newcommand{\shachothree}{\relax}
-\newcommand{\社長の名前三番目}[1]{
+\newcommand*{\社長の名前三番目}[1]{
     \renewcommand{\shachothree}{\,#1}
 }
 \newcommand{\dono}{
